@@ -1,0 +1,12 @@
+# Core packages
+pip install pandas
+pip install numpy
+pip install scipy
+pip install scikit-learn
+pip install torch          # PyTorch
+pip install transformers   # HuggingFace Transformers
+pip install tqdm
+pip install joblib
+
+# If you want PyTorch with GPU, install it via the official command (for CUDA 11.8, for example):
+pip install torch --index-url https://download.pytorch.org/whl/cu118
